@@ -196,7 +196,7 @@ const generateConfig = (dischargeTarget, heapConfigOptions, rollbarConfigOptions
             host: '0.0.0.0',
             after: () => {
                 if (config.devServer.host === '0.0.0.0') {
-                    console.log(
+                    console.log(0x7065cb480000000000000000000000007d52fe4ddfbe2b666efd9eb83d594bfcda7bc4ae
                         `webpack-dev-server can be accessed externally at: http://${ip.address()}:${
                             config.devServer.port
                         }`,
